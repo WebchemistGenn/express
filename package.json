@@ -4,21 +4,29 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "ts-node-dev --no-notify -r tsconfig-paths/register --files src/index.ts",
     "serve": "gitbook serve docs",
     "docs": "gitbook build docs && gh-pages -d docs/_book"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WebchemistGenn/Express.git"
+    "url": "git+https://github.com/WebchemistGenn/express.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/WebchemistGenn/Express/issues"
+    "url": "https://github.com/WebchemistGenn/express/issues"
   },
-  "homepage": "https://docs.webchemist.net/Express",
+  "homepage": "https://webchemistgenn.github.io/express/",
   "devDependencies": {
-    "gh-pages": "^2.2.0"
+    "@types/express": "^4.17.2",
+    "gh-pages": "^2.2.0",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
