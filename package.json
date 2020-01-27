@@ -1,0 +1,23 @@
+{
+  "name": "Express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs": "gitbook build docs && gh-pages -d docs/_book"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebchemistGenn/Express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WebchemistGenn/Express/issues"
+  },
+  "homepage": "https://docs.webchemist.net/Express",
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
